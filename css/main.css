@@ -97,7 +97,8 @@ textarea {
 
 /*Large Background Image*/
 html {
-  background: url(../img/green-mug.png) no-repeat;
+  background: url(../img/green-mug.png) no-repeat center;
+  background-image: cover;
    /*** set height to 100% - these are important for allowing content to vertically align */
    height: 100%;
    width: 100%;
@@ -108,8 +109,6 @@ body {
   height: 100%;
   font-family: 'Voltaire', sans-serif;
   font-size: 1em;
-  display: flex;
-  justify-content: center;
 }
 
 h1{
@@ -118,14 +117,10 @@ h1{
 
 .wrapper {
   /*** set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
-  display: flex;
+  
   margin: 0;
   height: 100%;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  justify-self: space-between;
-  flex-direction: column;
 }
 
 #content {
@@ -134,7 +129,7 @@ h1{
   display: flex;
   flex-direction: column;
   background: #222;
-  background:rgba(152, 156, 140, 0.7);
+  background:rgba(152, 156, 140, 0.8);
   color: #fff;
   font-family: 'Marmelad', sans-serif;
   font-weight: 300;
@@ -142,7 +137,7 @@ h1{
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
-  width: 420px;
+  width: 45%;
   height: 850px;
 }
 
@@ -150,23 +145,29 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4em;
     color: #2e310f;
+    text-shadow: .5px .5px #fff;
 }
 
 #content h2 span{
     font-size: 1.5em;
-    color: #858f2c;;
+    color: #808b14;
+    
+}
+
+#content p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-shadow: .5px .5px #2e310f; 
 }
 
 #content p span {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.15em;
     color: #2e310f;
+    text-shadow: .5px .5px #fff;
 }
 
-#content-b span{
-    font-family: 'Montserrat', sans-serif;
+#social{
     font-size: 1.15em;
-    color: #858f2c;
 }
 
 

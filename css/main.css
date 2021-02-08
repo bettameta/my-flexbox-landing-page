@@ -102,8 +102,8 @@ html {
 }
 
 body {
-    background: url(../img/green-mug.png) no-repeat;
-    background-image: cover;
+    background: url(../img/green-mug.png) no-repeat center fixed;
+    background-size: cover;
     /*** set height to 100% - these are important for allowing content to vertically align */
     width: 100%;/*** set height to 100% - these are important for allowing content to vertically align */
     height: 100%;
@@ -138,7 +138,7 @@ h1{
     line-height: 1.5em;
     border-radius: 7px;
     padding: 30px 50px 40px 50px;
-    width: 75%;
+    width: 45%;
 }
 
 #content h2{
@@ -150,7 +150,7 @@ h1{
 
 #content h2 span{
     font-size: 1.5em;
-    color: #808b14;
+    color: #525a0a;
     
 }
 
